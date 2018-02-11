@@ -38,7 +38,7 @@ def CNN_model_generation():
     #evaluation=np.zeros((CV,2))
     #kf = KFold(n_splits=CV,random_state=100)
     #kernel_loop_pool=[2,3,4]
-    kernel_loop=4
+    kernel_loop=5
     #lr_pool=[0.00001,0.00005,0.0001,0.0005,0.001]
     learning_rate=0.0005
     kernel_size_len=4
