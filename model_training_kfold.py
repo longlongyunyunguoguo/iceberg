@@ -9,12 +9,12 @@ from sklearn.model_selection import KFold
 id_name = 'no_angle_1055'
 n = 20
 #data processing
-train = pd.read_json('train.json')
+train = pd.read_json('./train.json')
 all_X,all_y = data_pro.data_processing(train)
 kf = KFold(n_splits=n, shuffle=True, random_state=2018)
 ids=list(kf.split(all_X))
 loc_i = np.arange(n)
-test = pd.read_json('test.json')
+test = pd.read_json('./test.json')
 test_X = data_pro.transform(test)
 
 def model_fitting(ids,I):
