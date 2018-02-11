@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from keras.callbacks import EarlyStopping, ModelCheckpoint, History
 import h5py
-import ProcessingMethods.data_processing_0106_norm_min_no_filter_b3sub_band4_angle as data_pro
+import data_processing_0106_norm_min_no_filter_b3sub_band4_angle as data_pro
 import cnn_model_0106_angle_4thband as cnn_model
 from sklearn.model_selection import KFold
 import LinearPred_Angle as linear_predict
