@@ -3,7 +3,7 @@ import pandas as pd
 from keras.callbacks import EarlyStopping, ModelCheckpoint, History
 import h5py
 import data_processing_0101_norm_min_no_filter_b3sub_pseudo_1055 as data_pro
-import cnn_model_1225 as cnn_model
+import cnn_model_1226 as cnn_model
 from sklearn.model_selection import KFold
 #trial id
 id_num = 'no_angle_1055'
