@@ -7,7 +7,7 @@ import cnn_model_1226 as cnn_model
 from sklearn.model_selection import KFold
 #trial id
 id_num = 'no_angle_1055'
-n = 5
+n = 2
 #data processing
 train = pd.read_json('drive/Deep_Learning/train.json')
 all_X,all_y = data_pro.data_processing(train)
